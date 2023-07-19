@@ -308,7 +308,7 @@ nav li{
     border: none;
     background-color: white;
     margin-right: 1.5rem;
-    transition-duration: 0.3s;
+    transition-duration: 0.15s;
     cursor: pointer;
 
 }
@@ -321,9 +321,12 @@ nav li{
 .btn-row-1{
     margin-bottom: 1.5rem;
 }
-
+.btn-row-2{
+    padding-left: 5rem;
+}
 .selection-btn:hover{
-    outline: #F948B2;
+    border: 2px solid #F948B2;
+    color: #F948B2;
 }
 
 /* footer */
@@ -417,7 +420,7 @@ footer .footer-img{
     }
     .online-games{
         flex-direction: column;
-        margin-top: 13rem;
+        margin-top: 27rem;
         padding: 0px;
     }
     .online-gamer-img{
@@ -425,7 +428,7 @@ footer .footer-img{
     }
     .play{
         flex-direction: column;
-        margin-top: 80rem;
+        margin-top: 93rem;
         padding: 0 0 0 50px;
     }
     .play-big-img{
@@ -438,6 +441,8 @@ footer .footer-img{
     }
     .selection{
         margin-top: 10rem;
+        padding: 5px;
+        flex-wrap: nowrap;
     }
     .btn-row-1{
         display: grid;
@@ -445,6 +450,11 @@ footer .footer-img{
     }
     .btn-row-2{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+        /* margin-top: 5px; */
+        gap: 5px;
     }
+    
+
 }
