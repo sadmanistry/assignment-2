@@ -308,15 +308,143 @@ nav li{
     border: none;
     background-color: white;
     margin-right: 1.5rem;
-    
-    
+    transition-duration: 0.3s;
+    cursor: pointer;
 
 }
 .selection-img{
     height: 2.5rem;
     width: 2.5rem;
     vertical-align: middle;
+    margin-right: 0.3rem;
 }
 .btn-row-1{
     margin-bottom: 1.5rem;
+}
+
+.selection-btn:hover{
+    outline: #F948B2;
+}
+
+/* footer */
+footer{
+   background-color: #0B0223;
+   color: white;
+   height: 40vh;
+   padding-top: 4rem;
+}
+footer li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-right: 3rem;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer .logo{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+footer .footer-img{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-btn{
+    background-color: transparent;
+    border: none;
+    margin-right: 2rem;
+}
+.footer-icon{
+    height: 2rem;
+    width: 2rem;
+}
+
+
+
+
+
+
+/* media resposive */
+
+@media  screen and (max-width: 576px) {
+    
+    nav, nav ul{
+        flex-direction: column;
+    }
+    .follow-part{
+        margin: 2rem;
+    }
+    .banner{
+        flex-direction: column;
+        padding-top: 5rem;
+        background-color:white;
+        
+    }
+    .banner-text{
+        padding: 0px;
+
+    }
+    .banner-img{
+        height: 15rem;
+        width: 20rem;
+        padding-top: 3rem;
+        padding-left: 5rem;
+        
+    }
+    .we-are-gamer{
+        flex-direction: column;
+    }
+    .gamer-img{
+        height: 30rem;
+        width: 25rem;
+        margin-left: 0px;
+        margin-top: 130px;
+    }
+    .gamer-text{
+        text-align: center;
+        margin-right: 0px;
+    }
+    .online-games{
+        flex-direction: column;
+        margin-top: 13rem;
+        padding: 0px;
+    }
+    .online-gamer-img{
+        flex-direction: column;
+    }
+    .play{
+        flex-direction: column;
+        margin-top: 80rem;
+        padding: 0 0 0 50px;
+    }
+    .play-big-img{
+        height: 25rem;
+        width: 17rem;
+    }
+    .play-text{
+        display: inline;
+        text-align: center;
+    }
+    .selection{
+        margin-top: 10rem;
+    }
+    .btn-row-1{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .btn-row-2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
